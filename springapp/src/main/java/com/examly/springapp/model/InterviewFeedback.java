@@ -45,7 +45,7 @@ public class InterviewFeedback {
     public void setinterviewRound(String interviewRound){
         this.interviewRound = interviewRound;
     }
-    public jobApplication getJobApplication(){
+    public JobApplication getJobApplication(){
         return jobApplication;
     }
     public void setJobApplication(JobApplication jobApplication){
