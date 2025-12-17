@@ -1,5 +1,5 @@
 package com.examly.springapp.repository;
-import com.examly.springapp.model.*;
+import com.examly.springapp.model.User;
 import org.springFramework.data.jpa.repository.JpaRepository;
 import org.springFramework.stereotype.Repository;
 
