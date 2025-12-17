@@ -6,7 +6,6 @@ public class JobApplication {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long applicationId;
-    
     private String coverLetter;
     private String resumeUrl;
     private String status;
@@ -14,7 +13,11 @@ public class JobApplication {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
-     
+    
+    @ManyToOne
+    @JoinColumn(name = "job_position_id")
+    private JobPosition jobPosition;
+
     public JobApplication(){}
 
     public long getApplicationId(){
@@ -41,7 +44,7 @@ public class JobApplication {
     public void setStatus(String status){
         this.status = status;
     }
-    public user getUser(){
+    public User getUser(){
         return user;
     }
     public void setUser(User user){

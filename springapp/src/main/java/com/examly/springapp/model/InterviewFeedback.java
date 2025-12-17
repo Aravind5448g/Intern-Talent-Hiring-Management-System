@@ -14,6 +14,10 @@ public class InterviewFeedback {
     @ManyToOne
     @JoinColumn(name = "application_id")
     private JobApplication jobApplication;
+    
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
      
     public InterviewFeedback(){}
 

@@ -51,7 +51,7 @@ public class JobPosition {
     public int getOpenings(){
         return openings;
     }
-    public void setOpenings(String openings){
+    public void setOpenings(int openings){
         this.openings = openings;
     }
     public Department getDepartment(){
