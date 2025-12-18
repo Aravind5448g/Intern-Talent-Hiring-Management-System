@@ -32,4 +32,22 @@ public class JobApplicationController {
         }
         return new ResponseEntity<>(obj, HttpStatus.OK);
     }
+    @PutMapping("/{id}")
+    public ResponseEntity<JobApplication> updateJobApplication(@PathVariable Long id, @RequestBody JobApplication jobApplication) {
+        JobApplication check = service.getJobApplicationById(id);
+        if(check == null){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        jobApplication.setApplicationId(id);
+        JobApplication updated = service.addJobApplication(jobApplication);
+        return new ResponseEntity<>(updated, HttpStatus.OK);
+    }
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteJobApplication(@PathVariable Long id) {
+        JobApplication obj = service.getJobApplicationById(id);
+        if(obj == null){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }
