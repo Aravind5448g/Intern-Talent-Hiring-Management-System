@@ -50,5 +50,11 @@ public class JobApplication {
     public void setUser(User user){
         this.user = user;
     }
+    public JobPosition getJobPosition() {
+        return jobPosition;
+    }
     
+    public void setJobPosition(JobPosition jobPosition) {
+        this.jobPosition = jobPosition;
+    }
 }
