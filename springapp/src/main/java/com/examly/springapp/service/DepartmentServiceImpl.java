@@ -1,4 +1,4 @@
-package com.examly.springapp.service.impl;
+package com.examly.springapp.service;
 import com.examly.springapp.model.Department;
 import com.examly.springapp.repository.DepartmentRepository;
 import com.examly.springapp.service.DepartmentService;

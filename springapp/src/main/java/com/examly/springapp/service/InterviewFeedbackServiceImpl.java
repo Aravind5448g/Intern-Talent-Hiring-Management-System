@@ -1,4 +1,4 @@
-package com.examly.springapp.service.impl;
+package com.examly.springapp.service;
 import com.examly.springapp.model.InterviewFeedback;
 import com.examly.springapp.repository.InterviewFeedbackRepository;
 import com.examly.springapp.service.InterviewFeedbackService;
