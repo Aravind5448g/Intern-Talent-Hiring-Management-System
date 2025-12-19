@@ -62,3 +62,4 @@ public class JobApplicationController {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }
+

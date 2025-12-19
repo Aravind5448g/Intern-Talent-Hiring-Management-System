@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="4.275" tests="80" errors="0" skipped="0" failures="54">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.springapp.SpringappApplicationTests" time="3.394" tests="80" errors="0" skipped="0" failures="36">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter7029982691538804512.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-17T16-45-54_627-jvmRun1 surefire10691774978621703164tmp surefire_07613773898443975164tmp"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter13859971957515867945.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-19T06-22-06_819-jvmRun1 surefire16239988220231778920tmp surefire_018262918356065912586tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.0.1/spring-boot-starter-data-jpa-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.0.1/spring-boot-starter-aop-3.0.1.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.0.1/spring-boot-starter-jdbc-3.0.1.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/6.0.3/spring-jdbc-6.0.3.jar:/home/coder/.m2/repository/org/hibernate/orm/hibernate-core/6.1.6.Final/hibernate-core-6.1.6.Final.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.2.Final/hibernate-commons-annotations-6.0.2.Final.jar:/home/coder/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.1/jaxb-runtime-4.0.1.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.1/jaxb-core-4.0.1.jar:/home/coder/.m2/repository/org/eclipse/angus/angus-activation/1.0.0/angus-activation-1.0.0.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/4.0.1/txw2-4.0.1.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.0/jakarta.inject-api-2.0.0.jar:/home/coder/.m2/repository/org/antlr/antlr4-runtime/4.10.1/antlr4-runtime-4.10.1.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/3.0.0/spring-data-jpa-3.0.0.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/3.0.0/spring-data-commons-3.0.0.jar:/home/coder/.m2/repository/org/springframework/spring-orm/6.0.3/spring-orm-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.0.3/spring-context-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-tx/6.0.3/spring-tx-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/6.0.3/spring-aspects-6.0.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.0.1/spring-boot-starter-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.0.1/spring-boot-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.0.1/spring-boot-autoconfigure-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.0.1/spring-boot-starter-logging-3.0.1.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.4.5/logback-core-1.4.5.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.19.0/log4j-to-slf4j-2.19.0.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.6/jul-to-slf4j-2.0.6.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.0.3/spring-core-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.0.1/spring-boot-starter-web-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.0.1/spring-boot-starter-json-3.0.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.14.1/jackson-datatype-jdk8-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.1/jackson-datatype-jsr310-2.14.1.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.1/jackson-module-parameter-names-2.14.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.0.1/spring-boot-starter-tomcat-3.0.1.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.4/tomcat-embed-core-10.1.4.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.4/tomcat-embed-el-10.1.4.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.4/tomcat-embed-websocket-10.1.4.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.10.2/micrometer-observation-1.10.2.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.10.2/micrometer-commons-1.10.2.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/3.0.1/spring-boot-devtools-3.0.1.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.jar:/home/coder/.m2/repository/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.0.1/spring-boot-starter-test-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.0.1/spring-boot-test-3.0.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.0.1/spring-boot-test-autoconfigure-3.0.1.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.7.0/json-path-2.7.0.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/4.8.1/mockito-junit-jupiter-4.8.1.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.0.3/spring-test-6.0.3.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-mail/2.6.3/spring-boot-starter-mail-2.6.3.jar:/home/coder/.m2/repository/org/springframework/spring-context-support/6.0.3/spring-context-support-6.0.3.jar:/home/coder/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar:/home/coder/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:/home/coder/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/mockito/mockito-core/4.8.1/mockito-core-4.8.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.12.20/byte-buddy-1.12.20.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.20/byte-buddy-agent-1.12.20.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/coder/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter7029982691538804512.jar"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter13859971957515867945.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10-Debian-1deb11u1"/>
     <property name="user.name" value="coder"/>
@@ -48,7 +48,7 @@
     <property name="user.dir" value="/home/coder/project/workspace/springapp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="57767"/>
+    <property name="PID" value="2169"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
@@ -59,15 +59,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.159">
-    <system-out><![CDATA[16:45:55.462 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SpringappApplicationTests]: using SpringBootContextLoader
-16:45:55.465 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.examly.springapp.SpringappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-16:45:55.465 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:45:55.499 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SpringappApplicationTests]: [ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
-16:45:55.571 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/SpringappApplication.class]
-16:45:55.572 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
-16:45:55.658 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SpringappApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
-16:45:55.665 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SpringappApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.124">
+    <system-out><![CDATA[06:22:07.546 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SpringappApplicationTests]: using SpringBootContextLoader
+06:22:07.549 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.examly.springapp.SpringappApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+06:22:07.550 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:22:07.595 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SpringappApplicationTests]: [ImportsContextCustomizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+06:22:07.640 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/coder/project/workspace/springapp/target/classes/com/examly/springapp/SpringappApplication.class]
+06:22:07.641 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
+06:22:07.741 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SpringappApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+06:22:07.742 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SpringappApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,18 +77,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.1)
 
-2025-12-17T16:45:55.966Z  INFO 57767 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 57767 (started by coder in /home/coder/project/workspace/springapp)
-2025-12-17T16:45:55.967Z  INFO 57767 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-12-17T16:45:56.522Z  INFO 57767 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-17T16:45:56.572Z  INFO 57767 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
-2025-12-17T16:45:56.913Z  INFO 57767 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-17T16:45:56.946Z  INFO 57767 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
-2025-12-17T16:45:57.081Z  WARN 57767 --- [           main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
-2025-12-17T16:45:57.182Z  INFO 57767 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-17T16:45:57.323Z  INFO 57767 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ee92e7d
-2025-12-17T16:45:57.324Z  INFO 57767 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-17T16:45:57.342Z  INFO 57767 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2025-12-17T16:45:57.342Z  WARN 57767 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-19T06:22:07.930Z  INFO 2169 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 2169 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-19T06:22:07.931Z  INFO 2169 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-19T06:22:08.506Z  INFO 2169 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-19T06:22:08.549Z  INFO 2169 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2025-12-19T06:22:08.807Z  INFO 2169 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-19T06:22:08.833Z  INFO 2169 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.6.Final
+2025-12-19T06:22:08.932Z  WARN 2169 --- [           main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2025-12-19T06:22:09.007Z  INFO 2169 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-19T06:22:09.117Z  INFO 2169 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@446b64b3
+2025-12-19T06:22:09.118Z  INFO 2169 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-19T06:22:09.131Z  INFO 2169 --- [           main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-12-19T06:22:09.132Z  WARN 2169 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
 Hibernate: alter table app_user drop foreign key FKn54amhv3169lj7g6mr9x8u8es
 Hibernate: alter table interview_feedback drop foreign key FKrc5qt5o2h85yciegxqgupt0c1
 Hibernate: alter table interview_feedback drop foreign key FKhe44nv5t3ge4wk74msxxdi1ti
@@ -111,71 +111,47 @@ Hibernate: alter table interview_feedback add constraint FKhe44nv5t3ge4wk74msxxd
 Hibernate: alter table job_application add constraint FKkjeu2y02mccg6ipqn4uqsivg1 foreign key (job_position_id) references job_position (position_id)
 Hibernate: alter table job_application add constraint FKc9lj9xkj8qfnmkut31jqek9pm foreign key (user_id) references app_user (user_id)
 Hibernate: alter table job_position add constraint FKiy8bbuqhxmmb4xfl9tdiyjtni foreign key (department_id) references department (department_id)
-2025-12-17T16:45:58.364Z  INFO 57767 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2025-12-17T16:45:58.371Z  INFO 57767 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-17T16:45:58.487Z  WARN 57767 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-17T16:45:59.064Z  INFO 57767 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-12-17T16:45:59.064Z  INFO 57767 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-12-17T16:45:59.067Z  INFO 57767 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-12-17T16:45:59.083Z  INFO 57767 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 3.383 seconds (process running for 4.218)
+2025-12-19T06:22:09.856Z  INFO 2169 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-12-19T06:22:09.862Z  INFO 2169 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-19T06:22:10.219Z  WARN 2169 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-19T06:22:10.425Z  INFO 2169 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-19T06:22:10.426Z  INFO 2169 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-19T06:22:10.428Z  INFO 2169 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-12-19T06:22:10.440Z  INFO 2169 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 2.674 seconds (process running for 3.428)
 ]]></system-out>
   </testcase>
-  <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day4_test_UserModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day4_test_DepartmentModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day4_test_JobApplicationModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day4_test_JobPosition_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day4_test_JobPosition_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day4_test_InterviewFeedback_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day4_test_JobApplication_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_JobApplication_Has_Id_Annotation_On_Field" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_UserRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day4_test_JobApplication_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day4_test_JobApplication_Has_Id_Annotation_On_Field" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day5_test_UserRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day5_test_DepartmentRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_JobApplicationRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day5_test_JobApplicationRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_JobPositionRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_InterviewFeedbackRepository_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day5_test_UserRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day5_test_UserRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_DepartmentRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_JobApplicationRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_JobPositionRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day5_test_InterviewFeedbackRepository_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_UserController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_UserController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day6_test_DepartmentController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
-  <testcase name="Day6_test_JobApplicationController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_JobPositionController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_JobApplicationController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day6_test_JobPositionController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day6_test_InterviewFeedbackController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day6_test_UserController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ @RestController annotation is missing on UserController class ==> expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_UserController_Has_RestController_Annotation(SpringappApplicationTests.java:257)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_JobApplicationController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_JobApplicationController_Has_RestController_Annotation(SpringappApplicationTests.java:273)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_JobApplicationController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_JobApplicationController_Has_PostMapping(SpringappApplicationTests.java:292)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_JobApplicationController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_JobApplicationController_Has_GetMapping(SpringappApplicationTests.java:311)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_JobApplicationController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_JobApplicationController_Has_PutMapping(SpringappApplicationTests.java:330)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_JobApplicationController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_JobApplicationController_Has_DeleteMapping(SpringappApplicationTests.java:349)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_testCreateJobApplication_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.036">
+  <testcase name="Day6_test_UserController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day6_test_JobApplicationController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day6_test_JobApplicationController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day6_test_JobApplicationController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day6_test_JobApplicationController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_JobApplicationController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_testCreateJobApplication_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.031">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<400> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day6_testCreateJobApplication_NoBody_StatusBadRequest(SpringappApplicationTests.java:358)
 ]]></failure>
@@ -217,7 +193,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day6_testGetAllJobApplications_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day6_testGetAllJobApplications_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day6_testGetAllJobApplications_StatusNoContent(SpringappApplicationTests.java:365)
 ]]></failure>
@@ -259,7 +235,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day6_testGetJobApplicationById_StatusNotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.008">
+  <testcase name="Day6_testGetJobApplicationById_StatusNotFound" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Response content
 Expected: a string containing "Job application not found"
@@ -304,66 +280,18 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day7_test_UserController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ No @RequestMapping found on UserController ==> expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_UserController_Has_RequestMapping(SpringappApplicationTests.java:391)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_UserController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ No @PathVariable found in UserController ==> expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_UserController_Has_PathVariable(SpringappApplicationTests.java:413)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_JobApplicationController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_JobApplicationController_Has_RequestMapping(SpringappApplicationTests.java:428)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_DepartmentController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ No @RequestMapping found on DepartmentController ==> expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_DepartmentController_Has_RequestMapping(SpringappApplicationTests.java:439)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_JobApplicationController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobApplicationController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_JobApplicationController_Has_PathVariable(SpringappApplicationTests.java:463)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_DepartmentController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ No @PathVariable found in DepartmentController ==> expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_DepartmentController_Has_PathVariable(SpringappApplicationTests.java:483)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_JobPositionController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ JobPositionController class not found.
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_JobPositionController_Has_RequestMapping(SpringappApplicationTests.java:498)
-]]></failure>
-  </testcase>
-  <testcase name="Day8_test_UserService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_UserService_File_Exists(SpringappApplicationTests.java:506)
-]]></failure>
-  </testcase>
-  <testcase name="Day8_test_DepartmentService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_DepartmentService_File_Exists(SpringappApplicationTests.java:512)
-]]></failure>
-  </testcase>
-  <testcase name="Day8_test_JobApplicationService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_JobApplicationService_File_Exists(SpringappApplicationTests.java:518)
-]]></failure>
-  </testcase>
-  <testcase name="Day8_test_JobPositionService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_JobPositionService_File_Exists(SpringappApplicationTests.java:524)
-]]></failure>
-  </testcase>
-  <testcase name="Day8_test_InterviewFeedbackService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.examly.springapp.SpringappApplicationTests.Day8_test_InterviewFeedbackService_File_Exists(SpringappApplicationTests.java:530)
-]]></failure>
-  </testcase>
+  <testcase name="Day7_test_UserController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_UserController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day7_test_JobApplicationController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_DepartmentController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day7_test_JobApplicationController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day7_test_DepartmentController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_JobPositionController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day8_test_UserService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day8_test_DepartmentService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day8_test_JobApplicationService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day8_test_JobPositionService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
+  <testcase name="Day8_test_InterviewFeedbackService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001"/>
   <testcase name="Day8_test_UserServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day8_test_UserServiceImpl_File_Exists(SpringappApplicationTests.java:536)
@@ -384,7 +312,7 @@ MockHttpServletResponse:
 	at com.examly.springapp.SpringappApplicationTests.Day8_test_JobPositionServiceImpl_File_Exists(SpringappApplicationTests.java:554)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_test_InterviewFeedbackServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
+  <testcase name="Day8_test_InterviewFeedbackServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day8_test_InterviewFeedbackServiceImpl_File_Exists(SpringappApplicationTests.java:560)
 ]]></failure>
@@ -473,7 +401,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testGetDepartmentById" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day8_testGetDepartmentById" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day8_testGetDepartmentById(SpringappApplicationTests.java:596)
 ]]></failure>
@@ -515,7 +443,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day8_testUpdateDepartment" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day8_testUpdateDepartment" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day8_testUpdateDepartment(SpringappApplicationTests.java:613)
 ]]></failure>
@@ -641,7 +569,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_SortingPresent" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
+  <testcase name="Day9_testPagination_SortingPresent" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPagination_SortingPresent(SpringappApplicationTests.java:643)
 ]]></failure>
@@ -767,7 +695,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testPagination_TotalPagesExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day9_testPagination_TotalPagesExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day9_testPagination_TotalPagesExists(SpringappApplicationTests.java:671)
 ]]></failure>
@@ -809,7 +737,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day10_testAddUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testAddUser(SpringappApplicationTests.java:691)
 ]]></failure>
@@ -851,7 +779,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllUsers" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day10_testGetAllUsers" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetAllUsers(SpringappApplicationTests.java:703)
 ]]></failure>
@@ -893,7 +821,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetUserById" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+  <testcase name="Day10_testGetUserById" classname="com.examly.springapp.SpringappApplicationTests" time="0.037">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetUserById(SpringappApplicationTests.java:716)
 ]]></failure>
@@ -935,7 +863,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testUpdateUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day10_testUpdateUser" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testUpdateUser(SpringappApplicationTests.java:738)
 ]]></failure>
@@ -977,7 +905,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddJobPosition" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day10_testAddJobPosition" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testAddJobPosition(SpringappApplicationTests.java:761)
 ]]></failure>
@@ -1019,7 +947,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllJobPositions" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day10_testGetAllJobPositions" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetAllJobPositions(SpringappApplicationTests.java:790)
 ]]></failure>
@@ -1061,7 +989,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetJobPositionById" classname="com.examly.springapp.SpringappApplicationTests" time="0.034">
+  <testcase name="Day10_testGetJobPositionById" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testGetJobPositionById(SpringappApplicationTests.java:801)
 ]]></failure>
@@ -1103,7 +1031,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testUpdateJobPosition" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day10_testUpdateJobPosition" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day10_testUpdateJobPosition(SpringappApplicationTests.java:822)
 ]]></failure>
@@ -1145,7 +1073,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day11_testSearchJobPositions" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day11_testSearchJobPositions" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day11_testSearchJobPositions(SpringappApplicationTests.java:844)
 ]]></failure>
@@ -1187,7 +1115,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testAddInterviewFeedback" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day12_testAddInterviewFeedback" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testAddInterviewFeedback(SpringappApplicationTests.java:871)
 ]]></failure>
@@ -1229,7 +1157,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetAllInterviewFeedbacks" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day12_testGetAllInterviewFeedbacks" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAllInterviewFeedbacks(SpringappApplicationTests.java:915)
 ]]></failure>
@@ -1313,7 +1241,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testUpdateInterviewFeedback" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day12_testUpdateInterviewFeedback" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testUpdateInterviewFeedback(SpringappApplicationTests.java:945)
 ]]></failure>
@@ -1355,7 +1283,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testGetFeedbacksByJobApplication" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day12_testGetFeedbacksByJobApplication" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication(SpringappApplicationTests.java:956)
 ]]></failure>
@@ -1397,22 +1325,22 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day13_test_execption_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
+  <testcase name="Day13_test_execption_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists(SpringappApplicationTests.java:971)
 ]]></failure>
   </testcase>
-  <testcase name="Day13_test_GloabalEception_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
+  <testcase name="Day13_test_GloabalEception_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists(SpringappApplicationTests.java:979)
 ]]></failure>
   </testcase>
-  <testcase name="Day14test_configuartion_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
+  <testcase name="Day14test_configuartion_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists(SpringappApplicationTests.java:986)
 ]]></failure>
   </testcase>
-  <testcase name="Day15_testAOPLogFileExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
+  <testcase name="Day15_testAOPLogFileExists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
     <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day15_testAOPLogFileExists(SpringappApplicationTests.java:993)
 ]]></failure>
