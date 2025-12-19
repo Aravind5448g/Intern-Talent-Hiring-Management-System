@@ -1,7 +1,6 @@
 package com.examly.springapp.service;
 import com.examly.springapp.model.JobPosition;
 import com.examly.springapp.repository.JobPositionRepository;
-import com.examly.springapp.service.JobPositionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

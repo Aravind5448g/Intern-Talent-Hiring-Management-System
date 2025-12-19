@@ -1,7 +1,7 @@
 package com.examly.springapp.service;
 import com.examly.springapp.model.InterviewFeedback;
 import com.examly.springapp.repository.InterviewFeedbackRepository;
-import com.examly.springapp.service.InterviewFeedbackService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
