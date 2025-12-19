@@ -1,7 +1,7 @@
 package com.examly.springapp.service;
+
 import com.examly.springapp.model.InterviewFeedback;
 import com.examly.springapp.repository.InterviewFeedbackRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -10,6 +10,7 @@ import java.util.List;
 public class InterviewFeedbackServiceImpl implements InterviewFeedbackService {
     @Autowired
     private InterviewFeedbackRepository repo;
+
     @Override
     public InterviewFeedback addInterviewFeedback(InterviewFeedback interviewFeedback) { return repo.save(interviewFeedback); }
     @Override

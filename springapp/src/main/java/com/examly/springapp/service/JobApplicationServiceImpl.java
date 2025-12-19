@@ -1,7 +1,7 @@
 package com.examly.springapp.service;
+
 import com.examly.springapp.model.JobApplication;
 import com.examly.springapp.repository.JobApplicationRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
@@ -10,6 +10,7 @@ import java.util.List;
 public class JobApplicationServiceImpl implements JobApplicationService {
     @Autowired
     private JobApplicationRepository repo;
+
     @Override
     public JobApplication addJobApplication(JobApplication jobApplication) { return repo.save(jobApplication); }
     @Override
