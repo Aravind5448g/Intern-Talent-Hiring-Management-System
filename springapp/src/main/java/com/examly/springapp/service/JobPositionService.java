@@ -5,4 +5,6 @@ public interface JobPositionService {
     JobPosition addJobPosition(JobPosition jobPosition);
     List<JobPosition> getAllJobPositions();
     JobPosition getJobPositionById(Long id);
+    JobPosition updateJobPosition(Long id, JobPosition jobPosition);
+    List<JobPosition> searchJobPositions(String keyword);
 }

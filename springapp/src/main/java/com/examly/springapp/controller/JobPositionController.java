@@ -7,29 +7,27 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
-@RequestMapping("/jobposition")
+@RequestMapping("/api/job-positions")
 public class JobPositionController {
-    @Autowired
-    private JobPositionService service;
+    @Autowired private JobPositionService service;
     @PostMapping
     public ResponseEntity<JobPosition> addJobPosition(@RequestBody JobPosition jobPosition) {
-        JobPosition obj = service.addJobPosition(jobPosition);
-        return new ResponseEntity<>(obj, HttpStatus.CREATED);
+        return new ResponseEntity<>(service.addJobPosition(jobPosition), HttpStatus.CREATED);
     }
     @GetMapping
     public ResponseEntity<List<JobPosition>> getAllJobPositions() {
-        List<JobPosition> list = service.getAllJobPositions();
-        if(list.isEmpty()){
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        }
-        return new ResponseEntity<>(list, HttpStatus.OK);
+        return new ResponseEntity<>(service.getAllJobPositions(), HttpStatus.OK);
     }
     @GetMapping("/{id}")
     public ResponseEntity<JobPosition> getJobPositionById(@PathVariable Long id) {
-        JobPosition obj = service.getJobPositionById(id);
-        if(obj == null){
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
-        return new ResponseEntity<>(obj, HttpStatus.OK);
+        return new ResponseEntity<>(service.getJobPositionById(id), HttpStatus.OK);
+    }
+    @PutMapping("/{id}")
+    public ResponseEntity<JobPosition> updateJobPosition(@PathVariable Long id, @RequestBody JobPosition jobPosition) {
+        return new ResponseEntity<>(service.updateJobPosition(id, jobPosition), HttpStatus.OK);
+    }
+    @GetMapping("/search/{keyword}")
+    public ResponseEntity<List<JobPosition>> searchJobPositions(@PathVariable String keyword) {
+        return new ResponseEntity<>(service.searchJobPositions(keyword), HttpStatus.OK);
     }
 }
