@@ -14,5 +14,4 @@ public class JobPositionServiceImpl implements JobPositionService {
         jobPosition.setPositionId(id);
         return repo.save(jobPosition);
     }
-    public List<JobPosition> searchJobPositions(String keyword) { return repo.findByPositionTitleContaining(keyword); }
 }

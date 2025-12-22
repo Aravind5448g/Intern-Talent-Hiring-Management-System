@@ -26,8 +26,4 @@ public class JobPositionController {
     public ResponseEntity<JobPosition> updateJobPosition(@PathVariable Long id, @RequestBody JobPosition jobPosition) {
         return new ResponseEntity<>(service.updateJobPosition(id, jobPosition), HttpStatus.OK);
     }
-    @GetMapping("/search/{keyword}")
-    public ResponseEntity<List<JobPosition>> searchJobPositions(@PathVariable String keyword) {
-        return new ResponseEntity<>(service.searchJobPositions(keyword), HttpStatus.OK);
-    }
 }
