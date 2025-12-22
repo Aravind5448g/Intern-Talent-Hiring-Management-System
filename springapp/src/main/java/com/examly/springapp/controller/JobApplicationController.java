@@ -6,10 +6,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+
 @RestController
 @RequestMapping("/api/job-applications")
 public class JobApplicationController {
-    @Autowired private JobApplicationService service;
+    @Autowired 
+    private JobApplicationService service;
     @PostMapping
     public ResponseEntity<JobApplication> addJobApplication(@RequestBody(required = false) JobApplication jobApplication) {
         if (jobApplication == null) return new ResponseEntity<>(HttpStatus.BAD_REQUEST);

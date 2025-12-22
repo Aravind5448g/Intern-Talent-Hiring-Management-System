@@ -6,7 +6,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
-    @Autowired private UserRepository repo;
+    @Autowired 
+    private UserRepository repo;
     public User addUser(User user) { return repo.save(user); }
     public List<User> getAllUsers() { return repo.findAll(); }
     public User getUserById(Long id) { return repo.findById(id).orElse(null); }

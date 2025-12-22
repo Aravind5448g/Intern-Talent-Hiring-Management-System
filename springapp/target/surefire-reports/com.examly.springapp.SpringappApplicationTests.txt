@@ -1,21 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 80, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 4.001 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
-com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication  Time elapsed: 0.008 s  <<< FAILURE!
-java.lang.AssertionError: No value at JSON path "$[0].content"
-	at com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication(SpringappApplicationTests.java:957)
-Caused by: com.jayway.jsonpath.PathNotFoundException: No results for path: $[0]['content']
+Tests run: 80, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 4.046 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+com.examly.springapp.SpringappApplicationTests.Day11_testSearchJobPositions  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.Day11_testSearchJobPositions(SpringappApplicationTests.java:850)
 
-com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists  Time elapsed: 0.003 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testAddInterviewFeedback  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.Day12_testAddInterviewFeedback(SpringappApplicationTests.java:903)
+
+com.examly.springapp.SpringappApplicationTests.Day12_testGetAllInterviewFeedbacks  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAllInterviewFeedbacks(SpringappApplicationTests.java:915)
+
+com.examly.springapp.SpringappApplicationTests.Day12_testGetInterviewFeedbackById  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.Day12_testGetInterviewFeedbackById(SpringappApplicationTests.java:926)
+
+com.examly.springapp.SpringappApplicationTests.Day12_testUpdateInterviewFeedback  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.Day12_testUpdateInterviewFeedback(SpringappApplicationTests.java:945)
+
+com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication(SpringappApplicationTests.java:956)
+
+com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists  Time elapsed: 0.007 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists(SpringappApplicationTests.java:971)
 
-com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists  Time elapsed: 0.001 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_GloabalEception_File_Exists(SpringappApplicationTests.java:979)
 
-com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day14test_configuartion_Directory_Exists(SpringappApplicationTests.java:986)
 

@@ -7,10 +7,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+
 @RestController
 @RequestMapping("/api/departments")
 public class DepartmentController {
-    @Autowired private DepartmentService service;
+    @Autowired 
+    private DepartmentService service;
     @PostMapping
     public ResponseEntity<Department> addDepartment(@RequestBody Department department) {
         return new ResponseEntity<>(service.addDepartment(department), HttpStatus.CREATED);
