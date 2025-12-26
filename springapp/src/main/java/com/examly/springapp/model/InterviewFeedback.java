@@ -25,7 +25,6 @@ public class InterviewFeedback {
     public String getContent() { return content; }
     public void setContent(String content) { this.content = content; }
     
-    // Using standard "is" prefix for boolean getter
     public boolean getIsInternal() { return isInternal; }
     public void setIsInternal(boolean isInternal) { this.isInternal = isInternal; }
     
