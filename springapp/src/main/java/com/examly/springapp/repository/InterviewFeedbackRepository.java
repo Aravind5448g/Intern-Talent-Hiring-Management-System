@@ -8,7 +8,6 @@ import java.util.List;
 
 @Repository
 public interface InterviewFeedbackRepository extends JpaRepository<InterviewFeedback, Long> {
-    // Explicit query to guarantee finding feedback by Application ID
     @Query("SELECT i FROM InterviewFeedback i WHERE i.jobApplication.applicationId = :appId")
     List<InterviewFeedback> findByApplicationId(@Param("appId") Long appId);
 }
