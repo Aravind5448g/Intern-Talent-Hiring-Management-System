@@ -8,50 +8,33 @@ public class InterviewFeedback {
     private String content;
     private boolean isInternal;
     private String interviewRound;
+    
     @ManyToOne
     @JoinColumn(name = "application_id")
     private JobApplication jobApplication;
+    
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
-    public InterviewFeedback() {}
-    
-    public Long getFeedbackId() {
-        return feedbackId;
-    }
-    public void setFeedbackId(Long feedbackId) {
-        this.feedbackId = feedbackId;
-    }
-    public String getContent() {
-        return content;
-    }
-    public void setContent(String content) {
-        this.content = content;
-    }
-    public boolean isInternal() {
-        return isInternal;
-    }
-    public void setInternal(boolean isInternal) {
-        this.isInternal = isInternal;
-    }
-    public String getInterviewRound() {
-        return interviewRound;
-    }
-    public void setInterviewRound(String interviewRound) {
-        this.interviewRound = interviewRound;
-    }
-    public JobApplication getJobApplication() {
-        return jobApplication;
-    }
-    public void setJobApplication(JobApplication jobApplication) {
-        this.jobApplication = jobApplication;
-    }
-    public User getUser() {
-        return user;
-    }
-    public void setUser(User user) {
-        this.user = user;
-    }
 
+    public InterviewFeedback() {}
+
+    public Long getFeedbackId() { return feedbackId; }
+    public void setFeedbackId(Long feedbackId) { this.feedbackId = feedbackId; }
     
+    public String getContent() { return content; }
+    public void setContent(String content) { this.content = content; }
+    
+    // Using standard "is" prefix for boolean getter
+    public boolean getIsInternal() { return isInternal; }
+    public void setIsInternal(boolean isInternal) { this.isInternal = isInternal; }
+    
+    public String getInterviewRound() { return interviewRound; }
+    public void setInterviewRound(String interviewRound) { this.interviewRound = interviewRound; }
+    
+    public JobApplication getJobApplication() { return jobApplication; }
+    public void setJobApplication(JobApplication jobApplication) { this.jobApplication = jobApplication; }
+    
+    public User getUser() { return user; }
+    public void setUser(User user) { this.user = user; }
 }
