@@ -24,5 +24,6 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/service/JobApplicationServiceImpl.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/InterviewFeedbackController.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/JobPosition.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/aop/LoggingAspect.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/JobPositionRepository.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/service/UserService.java

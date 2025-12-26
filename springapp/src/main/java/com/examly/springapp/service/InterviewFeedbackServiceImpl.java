@@ -32,6 +32,7 @@ public class InterviewFeedbackServiceImpl implements InterviewFeedbackService {
 
     @Override
     public List<InterviewFeedback> getFeedbacksByApplicationId(Long applicationId) {
-        return repo.findByJobApplication_ApplicationId(applicationId);
+        // Calling the custom query method
+        return repo.findByApplicationId(applicationId);
     }
 }
