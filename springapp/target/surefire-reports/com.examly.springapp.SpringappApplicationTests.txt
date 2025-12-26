@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 80, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 4.046 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
-com.examly.springapp.SpringappApplicationTests.Day11_testSearchJobPositions  Time elapsed: 0.012 s  <<< FAILURE!
+Tests run: 80, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 3.988 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+com.examly.springapp.SpringappApplicationTests.Day11_testSearchJobPositions  Time elapsed: 0.013 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day11_testSearchJobPositions(SpringappApplicationTests.java:850)
 
@@ -14,7 +14,7 @@ com.examly.springapp.SpringappApplicationTests.Day12_testGetAllInterviewFeedback
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetAllInterviewFeedbacks(SpringappApplicationTests.java:915)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetInterviewFeedbackById  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetInterviewFeedbackById  Time elapsed: 0.003 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetInterviewFeedbackById(SpringappApplicationTests.java:926)
 
@@ -22,11 +22,11 @@ com.examly.springapp.SpringappApplicationTests.Day12_testUpdateInterviewFeedback
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testUpdateInterviewFeedback(SpringappApplicationTests.java:945)
 
-com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication  Time elapsed: 0.004 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.examly.springapp.SpringappApplicationTests.Day12_testGetFeedbacksByJobApplication(SpringappApplicationTests.java:956)
 
-com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists  Time elapsed: 0.007 s  <<< FAILURE!
+com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists  Time elapsed: 0.003 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.examly.springapp.SpringappApplicationTests.Day13_test_execption_Directory_Exists(SpringappApplicationTests.java:971)
 

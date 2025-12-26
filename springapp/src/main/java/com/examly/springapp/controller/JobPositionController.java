@@ -6,12 +6,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
 @RestController
 @RequestMapping("/api/job-positions")
 public class JobPositionController {
-    @Autowired 
-    private JobPositionService service;
+    @Autowired private JobPositionService service;
     @PostMapping
     public ResponseEntity<JobPosition> addJobPosition(@RequestBody JobPosition jobPosition) {
         return new ResponseEntity<>(service.addJobPosition(jobPosition), HttpStatus.CREATED);
@@ -27,5 +25,9 @@ public class JobPositionController {
     @PutMapping("/{id}")
     public ResponseEntity<JobPosition> updateJobPosition(@PathVariable Long id, @RequestBody JobPosition jobPosition) {
         return new ResponseEntity<>(service.updateJobPosition(id, jobPosition), HttpStatus.OK);
+    }
+    @GetMapping("/search/{keyword}")
+    public ResponseEntity<List<JobPosition>> searchJobPositions(@PathVariable String keyword) {
+        return new ResponseEntity<>(service.searchJobPositions(keyword), HttpStatus.OK);
     }
 }
